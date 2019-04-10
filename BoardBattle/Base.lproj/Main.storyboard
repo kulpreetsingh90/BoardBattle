@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KZ5-bG-IKt">
+    <device id="retina6_1" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="FFo-un-eIn">
+            <objects>
+                <viewController id="KZ5-bG-IKt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tx6-f4-tNx">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="55Y-g0-w7Z" userLabel="background.png">
+                                <rect key="frame" x="-158.5" y="-197.5" width="1213" height="809"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="KC8-m0-nVb">
+                                <rect key="frame" x="239" y="82" width="418" height="80"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PvC-vM-l13">
+                                <rect key="frame" x="248" y="234" width="400" height="100"/>
+                                <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
+                                <state key="normal" title="START GAME">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="lp4-sQ-4C1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BpT-G0-xep" firstAttribute="bottom" secondItem="KC8-m0-nVb" secondAttribute="bottom" constant="231" id="4UU-yN-rKk"/>
+                            <constraint firstItem="BpT-G0-xep" firstAttribute="bottom" secondItem="PvC-vM-l13" secondAttribute="bottom" constant="59" id="IYL-zw-P0i"/>
+                            <constraint firstItem="BpT-G0-xep" firstAttribute="trailing" secondItem="KC8-m0-nVb" secondAttribute="trailing" constant="195" id="Nko-qP-FpU"/>
+                            <constraint firstItem="55Y-g0-w7Z" firstAttribute="centerX" secondItem="tx6-f4-tNx" secondAttribute="centerX" id="SkJ-Of-hUp"/>
+                            <constraint firstItem="PvC-vM-l13" firstAttribute="top" secondItem="BpT-G0-xep" secondAttribute="top" constant="234" id="TUf-hS-Kp6"/>
+                            <constraint firstItem="BpT-G0-xep" firstAttribute="trailing" secondItem="PvC-vM-l13" secondAttribute="trailing" constant="204" id="ZX7-4O-3Wi"/>
+                            <constraint firstItem="PvC-vM-l13" firstAttribute="leading" secondItem="BpT-G0-xep" secondAttribute="leading" constant="204" id="eJV-F7-oRM"/>
+                            <constraint firstItem="KC8-m0-nVb" firstAttribute="top" secondItem="BpT-G0-xep" secondAttribute="top" constant="82" id="j8b-9E-a7a"/>
+                            <constraint firstItem="55Y-g0-w7Z" firstAttribute="centerY" secondItem="tx6-f4-tNx" secondAttribute="centerY" id="jr0-Bx-cIf"/>
+                            <constraint firstItem="KC8-m0-nVb" firstAttribute="leading" secondItem="BpT-G0-xep" secondAttribute="leading" constant="195" id="uoR-iA-WxP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BpT-G0-xep"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u8d-pB-anT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-692.36453201970448" y="48.799999999999997"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="RollingDiceGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.png" width="1213" height="809"/>
+        <image name="logo.png" width="954" height="182"/>
+    </resources>
+</document>

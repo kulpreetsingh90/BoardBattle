@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F703FB522251381100F96C2A /* BDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F703FB512251381100F96C2A /* BDButton.swift */; };
 		F71E048E2236192A005F0D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E048D2236192A005F0D68 /* AppDelegate.swift */; };
 		F71E04902236192A005F0D68 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F71E048F2236192A005F0D68 /* GameScene.sks */; };
 		F71E04922236192A005F0D68 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F71E04912236192A005F0D68 /* Actions.sks */; };
@@ -16,6 +17,22 @@
 		F71E049B2236192D005F0D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71E049A2236192D005F0D68 /* Assets.xcassets */; };
 		F71E049E2236192D005F0D68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71E049C2236192D005F0D68 /* LaunchScreen.storyboard */; };
 		F71E04A92236192D005F0D68 /* RollingDiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E04A82236192D005F0D68 /* RollingDiceGameTests.swift */; };
+		F7A2A89C225DC4C4007C9D7B /* game board.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A88C225DC4C4007C9D7B /* game board.png */; };
+		F7A2A89D225DC4C4007C9D7B /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A88D225DC4C4007C9D7B /* enemy.png */; };
+		F7A2A89E225DC4C4007C9D7B /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A88E225DC4C4007C9D7B /* restart.png */; };
+		F7A2A89F225DC4C4007C9D7B /* Computer-player.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A88F225DC4C4007C9D7B /* Computer-player.png */; };
+		F7A2A8A0225DC4C4007C9D7B /* player-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A890225DC4C4007C9D7B /* player-1.png */; };
+		F7A2A8A1225DC4C4007C9D7B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A891225DC4C4007C9D7B /* background.png */; };
+		F7A2A8A2225DC4C4007C9D7B /* dice1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A892225DC4C4007C9D7B /* dice1.png */; };
+		F7A2A8A3225DC4C4007C9D7B /* dice3.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A893225DC4C4007C9D7B /* dice3.png */; };
+		F7A2A8A4225DC4C4007C9D7B /* dice2.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A894225DC4C4007C9D7B /* dice2.png */; };
+		F7A2A8A5225DC4C4007C9D7B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A895225DC4C4007C9D7B /* logo.png */; };
+		F7A2A8A6225DC4C4007C9D7B /* dice6.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A896225DC4C4007C9D7B /* dice6.png */; };
+		F7A2A8A7225DC4C4007C9D7B /* dice5.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A897225DC4C4007C9D7B /* dice5.png */; };
+		F7A2A8A8225DC4C4007C9D7B /* dice4.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A898225DC4C4007C9D7B /* dice4.png */; };
+		F7A2A8A9225DC4C4007C9D7B /* enemy-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A899225DC4C4007C9D7B /* enemy-1.png */; };
+		F7A2A8AA225DC4C4007C9D7B /* Human-player.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A89A225DC4C4007C9D7B /* Human-player.png */; };
+		F7A2A8AB225DC4C4007C9D7B /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A89B225DC4C4007C9D7B /* player.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F71E048A2236192A005F0D68 /* RollingDiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollingDiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F703FB512251381100F96C2A /* BDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDButton.swift; sourceTree = "<group>"; };
+		F71E048A2236192A005F0D68 /* BoardBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71E048D2236192A005F0D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F71E048F2236192A005F0D68 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		F71E04912236192A005F0D68 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -39,9 +57,25 @@
 		F71E049A2236192D005F0D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F71E049D2236192D005F0D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F71E049F2236192D005F0D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F71E04A42236192D005F0D68 /* RollingDiceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollingDiceGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71E04A42236192D005F0D68 /* BoardBattleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardBattleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71E04A82236192D005F0D68 /* RollingDiceGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingDiceGameTests.swift; sourceTree = "<group>"; };
 		F71E04AA2236192D005F0D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A2A88C225DC4C4007C9D7B /* game board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game board.png"; sourceTree = "<group>"; };
+		F7A2A88D225DC4C4007C9D7B /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+		F7A2A88E225DC4C4007C9D7B /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
+		F7A2A88F225DC4C4007C9D7B /* Computer-player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Computer-player.png"; sourceTree = "<group>"; };
+		F7A2A890225DC4C4007C9D7B /* player-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-1.png"; sourceTree = "<group>"; };
+		F7A2A891225DC4C4007C9D7B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		F7A2A892225DC4C4007C9D7B /* dice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice1.png; sourceTree = "<group>"; };
+		F7A2A893225DC4C4007C9D7B /* dice3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice3.png; sourceTree = "<group>"; };
+		F7A2A894225DC4C4007C9D7B /* dice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice2.png; sourceTree = "<group>"; };
+		F7A2A895225DC4C4007C9D7B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		F7A2A896225DC4C4007C9D7B /* dice6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice6.png; sourceTree = "<group>"; };
+		F7A2A897225DC4C4007C9D7B /* dice5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice5.png; sourceTree = "<group>"; };
+		F7A2A898225DC4C4007C9D7B /* dice4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice4.png; sourceTree = "<group>"; };
+		F7A2A899225DC4C4007C9D7B /* enemy-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemy-1.png"; sourceTree = "<group>"; };
+		F7A2A89A225DC4C4007C9D7B /* Human-player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Human-player.png"; sourceTree = "<group>"; };
+		F7A2A89B225DC4C4007C9D7B /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +108,8 @@
 		F71E048B2236192A005F0D68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F71E048A2236192A005F0D68 /* RollingDiceGame.app */,
-				F71E04A42236192D005F0D68 /* RollingDiceGameTests.xctest */,
+				F71E048A2236192A005F0D68 /* BoardBattle.app */,
+				F71E04A42236192D005F0D68 /* BoardBattleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +117,7 @@
 		F71E048C2236192A005F0D68 /* RollingDiceGame */ = {
 			isa = PBXGroup;
 			children = (
+				F7A2A88B225DC4C4007C9D7B /* images */,
 				F71E048D2236192A005F0D68 /* AppDelegate.swift */,
 				F71E048F2236192A005F0D68 /* GameScene.sks */,
 				F71E04912236192A005F0D68 /* Actions.sks */,
@@ -92,8 +127,10 @@
 				F71E049A2236192D005F0D68 /* Assets.xcassets */,
 				F71E049C2236192D005F0D68 /* LaunchScreen.storyboard */,
 				F71E049F2236192D005F0D68 /* Info.plist */,
+				F703FB512251381100F96C2A /* BDButton.swift */,
 			);
-			path = RollingDiceGame;
+			name = RollingDiceGame;
+			path = BoardBattle;
 			sourceTree = "<group>";
 		};
 		F71E04A72236192D005F0D68 /* RollingDiceGameTests */ = {
@@ -102,15 +139,40 @@
 				F71E04A82236192D005F0D68 /* RollingDiceGameTests.swift */,
 				F71E04AA2236192D005F0D68 /* Info.plist */,
 			);
-			path = RollingDiceGameTests;
+			name = RollingDiceGameTests;
+			path = BoardBattleTest;
+			sourceTree = "<group>";
+		};
+		F7A2A88B225DC4C4007C9D7B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F7A2A88C225DC4C4007C9D7B /* game board.png */,
+				F7A2A88D225DC4C4007C9D7B /* enemy.png */,
+				F7A2A88E225DC4C4007C9D7B /* restart.png */,
+				F7A2A88F225DC4C4007C9D7B /* Computer-player.png */,
+				F7A2A890225DC4C4007C9D7B /* player-1.png */,
+				F7A2A891225DC4C4007C9D7B /* background.png */,
+				F7A2A892225DC4C4007C9D7B /* dice1.png */,
+				F7A2A893225DC4C4007C9D7B /* dice3.png */,
+				F7A2A894225DC4C4007C9D7B /* dice2.png */,
+				F7A2A895225DC4C4007C9D7B /* logo.png */,
+				F7A2A896225DC4C4007C9D7B /* dice6.png */,
+				F7A2A897225DC4C4007C9D7B /* dice5.png */,
+				F7A2A898225DC4C4007C9D7B /* dice4.png */,
+				F7A2A899225DC4C4007C9D7B /* enemy-1.png */,
+				F7A2A89A225DC4C4007C9D7B /* Human-player.png */,
+				F7A2A89B225DC4C4007C9D7B /* player.png */,
+			);
+			name = images;
+			path = ../../../../../images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F71E04892236192A005F0D68 /* RollingDiceGame */ = {
+		F71E04892236192A005F0D68 /* BoardBattle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F71E04AD2236192D005F0D68 /* Build configuration list for PBXNativeTarget "RollingDiceGame" */;
+			buildConfigurationList = F71E04AD2236192D005F0D68 /* Build configuration list for PBXNativeTarget "BoardBattle" */;
 			buildPhases = (
 				F71E04862236192A005F0D68 /* Sources */,
 				F71E04872236192A005F0D68 /* Frameworks */,
@@ -120,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = RollingDiceGame;
+			name = BoardBattle;
 			productName = RollingDiceGame;
-			productReference = F71E048A2236192A005F0D68 /* RollingDiceGame.app */;
+			productReference = F71E048A2236192A005F0D68 /* BoardBattle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F71E04A32236192D005F0D68 /* RollingDiceGameTests */ = {
+		F71E04A32236192D005F0D68 /* BoardBattleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F71E04B02236192D005F0D68 /* Build configuration list for PBXNativeTarget "RollingDiceGameTests" */;
+			buildConfigurationList = F71E04B02236192D005F0D68 /* Build configuration list for PBXNativeTarget "BoardBattleTests" */;
 			buildPhases = (
 				F71E04A02236192D005F0D68 /* Sources */,
 				F71E04A12236192D005F0D68 /* Frameworks */,
@@ -138,9 +200,9 @@
 			dependencies = (
 				F71E04A62236192D005F0D68 /* PBXTargetDependency */,
 			);
-			name = RollingDiceGameTests;
+			name = BoardBattleTests;
 			productName = RollingDiceGameTests;
-			productReference = F71E04A42236192D005F0D68 /* RollingDiceGameTests.xctest */;
+			productReference = F71E04A42236192D005F0D68 /* BoardBattleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -162,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F71E04852236192A005F0D68 /* Build configuration list for PBXProject "RollingDiceGame" */;
+			buildConfigurationList = F71E04852236192A005F0D68 /* Build configuration list for PBXProject "BoardBattle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -175,8 +237,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F71E04892236192A005F0D68 /* RollingDiceGame */,
-				F71E04A32236192D005F0D68 /* RollingDiceGameTests */,
+				F71E04892236192A005F0D68 /* BoardBattle */,
+				F71E04A32236192D005F0D68 /* BoardBattleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,9 +249,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				F71E04992236192A005F0D68 /* Main.storyboard in Resources */,
+				F7A2A89F225DC4C4007C9D7B /* Computer-player.png in Resources */,
+				F7A2A8AA225DC4C4007C9D7B /* Human-player.png in Resources */,
+				F7A2A8A0225DC4C4007C9D7B /* player-1.png in Resources */,
 				F71E04902236192A005F0D68 /* GameScene.sks in Resources */,
+				F7A2A89D225DC4C4007C9D7B /* enemy.png in Resources */,
+				F7A2A8A4225DC4C4007C9D7B /* dice2.png in Resources */,
+				F7A2A89E225DC4C4007C9D7B /* restart.png in Resources */,
+				F7A2A8A8225DC4C4007C9D7B /* dice4.png in Resources */,
+				F7A2A8A6225DC4C4007C9D7B /* dice6.png in Resources */,
+				F7A2A8A9225DC4C4007C9D7B /* enemy-1.png in Resources */,
 				F71E049B2236192D005F0D68 /* Assets.xcassets in Resources */,
+				F7A2A8A7225DC4C4007C9D7B /* dice5.png in Resources */,
+				F7A2A89C225DC4C4007C9D7B /* game board.png in Resources */,
+				F7A2A8AB225DC4C4007C9D7B /* player.png in Resources */,
+				F7A2A8A3225DC4C4007C9D7B /* dice3.png in Resources */,
 				F71E049E2236192D005F0D68 /* LaunchScreen.storyboard in Resources */,
+				F7A2A8A5225DC4C4007C9D7B /* logo.png in Resources */,
+				F7A2A8A1225DC4C4007C9D7B /* background.png in Resources */,
+				F7A2A8A2225DC4C4007C9D7B /* dice1.png in Resources */,
 				F71E04922236192A005F0D68 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +289,7 @@
 				F71E04942236192A005F0D68 /* GameScene.swift in Sources */,
 				F71E04962236192A005F0D68 /* GameViewController.swift in Sources */,
 				F71E048E2236192A005F0D68 /* AppDelegate.swift in Sources */,
+				F703FB522251381100F96C2A /* BDButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +306,7 @@
 /* Begin PBXTargetDependency section */
 		F71E04A62236192D005F0D68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F71E04892236192A005F0D68 /* RollingDiceGame */;
+			target = F71E04892236192A005F0D68 /* BoardBattle */;
 			targetProxy = F71E04A52236192D005F0D68 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -373,12 +452,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RollingDiceGame/Info.plist;
+				DEVELOPMENT_TEAM = 9283RP2W98;
+				INFOPLIST_FILE = BoardBattle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kulpreetsingh.RollingDiceGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kulpreetsingh.BoardBattle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -390,12 +471,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RollingDiceGame/Info.plist;
+				DEVELOPMENT_TEAM = 9283RP2W98;
+				INFOPLIST_FILE = BoardBattle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kulpreetsingh.RollingDiceGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kulpreetsingh.BoardBattle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -418,7 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollingDiceGame.app/RollingDiceGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoardBattle.app/BoardBattle";
 			};
 			name = Debug;
 		};
@@ -438,14 +521,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollingDiceGame.app/RollingDiceGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoardBattle.app/BoardBattle";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F71E04852236192A005F0D68 /* Build configuration list for PBXProject "RollingDiceGame" */ = {
+		F71E04852236192A005F0D68 /* Build configuration list for PBXProject "BoardBattle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71E04AB2236192D005F0D68 /* Debug */,
@@ -454,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F71E04AD2236192D005F0D68 /* Build configuration list for PBXNativeTarget "RollingDiceGame" */ = {
+		F71E04AD2236192D005F0D68 /* Build configuration list for PBXNativeTarget "BoardBattle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71E04AE2236192D005F0D68 /* Debug */,
@@ -463,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F71E04B02236192D005F0D68 /* Build configuration list for PBXNativeTarget "RollingDiceGameTests" */ = {
+		F71E04B02236192D005F0D68 /* Build configuration list for PBXNativeTarget "BoardBattleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71E04B12236192D005F0D68 /* Debug */,
