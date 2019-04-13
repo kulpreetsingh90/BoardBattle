@@ -46,6 +46,7 @@ class GameScene: SKScene {
         case labels = 4
         case dice = 5
         case button = 6
+        case winlabel = 7
     }
     
     //left and right positions on X-axis
@@ -283,7 +284,6 @@ class GameScene: SKScene {
                 else if self.playerPosition + self.rolledDice > 100 {
                     self.playerPosition = 100
                     self.movePlayer(actualPlayer: true, position: CGFloat(self.playerPosition))
-                    self.checkWin()
                     self.moveFinished = true
                     self.gameOver = true
                 }
@@ -296,7 +296,6 @@ class GameScene: SKScene {
                 else if self.computerPosition + self.rolledDice > 100 {
                     self.computerPosition = 100
                     self.movePlayer(actualPlayer: false, position: CGFloat(self.computerPosition))
-                    self.checkWin()
                     self.moveFinished = true
                     self.gameOver = true
                 }
@@ -362,22 +361,23 @@ class GameScene: SKScene {
     func displayWinLabel(txt: String) {
         
         winLabel.fontColor = UIColor.red
-        winLabel.fontSize = 50
+        winLabel.fontSize = 80
         winLabel.text = txt
-        winLabel.zPosition = objectZPositions.labels.rawValue
+        winLabel.zPosition = objectZPositions.winlabel.rawValue
         addChild(winLabel)
         
         winLabel.run(SKAction.init(named: "Pulse")!)
         
     }
     
-//    func testing() {
-//        self.playerPosition = 90
-//        self.computerPosition = 89
-//        self.rolledDice = 1
-//        self.movePlayer(actualPlayer: true, position: CGFloat(self.playerPosition))
-//        self.movePlayer(actualPlayer: false, position: CGFloat(self.computerPosition))
-//    }
+    func testing() {
+        winLabel.removeFromParent()
+        self.playerPosition = 90
+        self.computerPosition = 89
+        self.rolledDice = 1
+        self.movePlayer(actualPlayer: true, position: CGFloat(self.playerPosition))
+        self.movePlayer(actualPlayer: false, position: CGFloat(self.computerPosition))
+    }
     
     func addRestartButton() {
         let restartButton = SKSpriteNode(imageNamed: "restart")
@@ -404,7 +404,8 @@ class GameScene: SKScene {
                 if node.contains(touch.location(in: self)){
                     
 //                    self.testing()
-                    self.winLabel.removeAllActions()
+                    self.winLabel.removeFromParent()
+                    self.resetLabels()
                     self.playerPosition = 1
                     self.computerPosition = 1
                     self.rolledDice = 0
