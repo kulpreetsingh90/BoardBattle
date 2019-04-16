@@ -17,22 +17,6 @@
 		F71E049B2236192D005F0D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71E049A2236192D005F0D68 /* Assets.xcassets */; };
 		F71E049E2236192D005F0D68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71E049C2236192D005F0D68 /* LaunchScreen.storyboard */; };
 		F71E04A92236192D005F0D68 /* RollingDiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E04A82236192D005F0D68 /* RollingDiceGameTests.swift */; };
-		F7A2A89C225DC4C4007C9D7B /* game board.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A88C225DC4C4007C9D7B /* game board.png */; };
-		F7A2A89D225DC4C4007C9D7B /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A88D225DC4C4007C9D7B /* enemy.png */; };
-		F7A2A89E225DC4C4007C9D7B /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A88E225DC4C4007C9D7B /* restart.png */; };
-		F7A2A89F225DC4C4007C9D7B /* Computer-player.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A88F225DC4C4007C9D7B /* Computer-player.png */; };
-		F7A2A8A0225DC4C4007C9D7B /* player-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A890225DC4C4007C9D7B /* player-1.png */; };
-		F7A2A8A1225DC4C4007C9D7B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A891225DC4C4007C9D7B /* background.png */; };
-		F7A2A8A2225DC4C4007C9D7B /* dice1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A892225DC4C4007C9D7B /* dice1.png */; };
-		F7A2A8A3225DC4C4007C9D7B /* dice3.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A893225DC4C4007C9D7B /* dice3.png */; };
-		F7A2A8A4225DC4C4007C9D7B /* dice2.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A894225DC4C4007C9D7B /* dice2.png */; };
-		F7A2A8A5225DC4C4007C9D7B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A895225DC4C4007C9D7B /* logo.png */; };
-		F7A2A8A6225DC4C4007C9D7B /* dice6.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A896225DC4C4007C9D7B /* dice6.png */; };
-		F7A2A8A7225DC4C4007C9D7B /* dice5.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A897225DC4C4007C9D7B /* dice5.png */; };
-		F7A2A8A8225DC4C4007C9D7B /* dice4.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A898225DC4C4007C9D7B /* dice4.png */; };
-		F7A2A8A9225DC4C4007C9D7B /* enemy-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A899225DC4C4007C9D7B /* enemy-1.png */; };
-		F7A2A8AA225DC4C4007C9D7B /* Human-player.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A89A225DC4C4007C9D7B /* Human-player.png */; };
-		F7A2A8AB225DC4C4007C9D7B /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = F7A2A89B225DC4C4007C9D7B /* player.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,22 +44,6 @@
 		F71E04A42236192D005F0D68 /* BoardBattleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardBattleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71E04A82236192D005F0D68 /* RollingDiceGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingDiceGameTests.swift; sourceTree = "<group>"; };
 		F71E04AA2236192D005F0D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7A2A88C225DC4C4007C9D7B /* game board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game board.png"; sourceTree = "<group>"; };
-		F7A2A88D225DC4C4007C9D7B /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
-		F7A2A88E225DC4C4007C9D7B /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
-		F7A2A88F225DC4C4007C9D7B /* Computer-player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Computer-player.png"; sourceTree = "<group>"; };
-		F7A2A890225DC4C4007C9D7B /* player-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-1.png"; sourceTree = "<group>"; };
-		F7A2A891225DC4C4007C9D7B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		F7A2A892225DC4C4007C9D7B /* dice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice1.png; sourceTree = "<group>"; };
-		F7A2A893225DC4C4007C9D7B /* dice3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice3.png; sourceTree = "<group>"; };
-		F7A2A894225DC4C4007C9D7B /* dice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice2.png; sourceTree = "<group>"; };
-		F7A2A895225DC4C4007C9D7B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		F7A2A896225DC4C4007C9D7B /* dice6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice6.png; sourceTree = "<group>"; };
-		F7A2A897225DC4C4007C9D7B /* dice5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice5.png; sourceTree = "<group>"; };
-		F7A2A898225DC4C4007C9D7B /* dice4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice4.png; sourceTree = "<group>"; };
-		F7A2A899225DC4C4007C9D7B /* enemy-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemy-1.png"; sourceTree = "<group>"; };
-		F7A2A89A225DC4C4007C9D7B /* Human-player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Human-player.png"; sourceTree = "<group>"; };
-		F7A2A89B225DC4C4007C9D7B /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +85,6 @@
 		F71E048C2236192A005F0D68 /* RollingDiceGame */ = {
 			isa = PBXGroup;
 			children = (
-				F7A2A88B225DC4C4007C9D7B /* images */,
 				F71E048D2236192A005F0D68 /* AppDelegate.swift */,
 				F71E048F2236192A005F0D68 /* GameScene.sks */,
 				F71E04912236192A005F0D68 /* Actions.sks */,
@@ -141,30 +108,6 @@
 			);
 			name = RollingDiceGameTests;
 			path = BoardBattleTest;
-			sourceTree = "<group>";
-		};
-		F7A2A88B225DC4C4007C9D7B /* images */ = {
-			isa = PBXGroup;
-			children = (
-				F7A2A88C225DC4C4007C9D7B /* game board.png */,
-				F7A2A88D225DC4C4007C9D7B /* enemy.png */,
-				F7A2A88E225DC4C4007C9D7B /* restart.png */,
-				F7A2A88F225DC4C4007C9D7B /* Computer-player.png */,
-				F7A2A890225DC4C4007C9D7B /* player-1.png */,
-				F7A2A891225DC4C4007C9D7B /* background.png */,
-				F7A2A892225DC4C4007C9D7B /* dice1.png */,
-				F7A2A893225DC4C4007C9D7B /* dice3.png */,
-				F7A2A894225DC4C4007C9D7B /* dice2.png */,
-				F7A2A895225DC4C4007C9D7B /* logo.png */,
-				F7A2A896225DC4C4007C9D7B /* dice6.png */,
-				F7A2A897225DC4C4007C9D7B /* dice5.png */,
-				F7A2A898225DC4C4007C9D7B /* dice4.png */,
-				F7A2A899225DC4C4007C9D7B /* enemy-1.png */,
-				F7A2A89A225DC4C4007C9D7B /* Human-player.png */,
-				F7A2A89B225DC4C4007C9D7B /* player.png */,
-			);
-			name = images;
-			path = ../../../../../images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,25 +192,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F71E04992236192A005F0D68 /* Main.storyboard in Resources */,
-				F7A2A89F225DC4C4007C9D7B /* Computer-player.png in Resources */,
-				F7A2A8AA225DC4C4007C9D7B /* Human-player.png in Resources */,
-				F7A2A8A0225DC4C4007C9D7B /* player-1.png in Resources */,
 				F71E04902236192A005F0D68 /* GameScene.sks in Resources */,
-				F7A2A89D225DC4C4007C9D7B /* enemy.png in Resources */,
-				F7A2A8A4225DC4C4007C9D7B /* dice2.png in Resources */,
-				F7A2A89E225DC4C4007C9D7B /* restart.png in Resources */,
-				F7A2A8A8225DC4C4007C9D7B /* dice4.png in Resources */,
-				F7A2A8A6225DC4C4007C9D7B /* dice6.png in Resources */,
-				F7A2A8A9225DC4C4007C9D7B /* enemy-1.png in Resources */,
 				F71E049B2236192D005F0D68 /* Assets.xcassets in Resources */,
-				F7A2A8A7225DC4C4007C9D7B /* dice5.png in Resources */,
-				F7A2A89C225DC4C4007C9D7B /* game board.png in Resources */,
-				F7A2A8AB225DC4C4007C9D7B /* player.png in Resources */,
-				F7A2A8A3225DC4C4007C9D7B /* dice3.png in Resources */,
 				F71E049E2236192D005F0D68 /* LaunchScreen.storyboard in Resources */,
-				F7A2A8A5225DC4C4007C9D7B /* logo.png in Resources */,
-				F7A2A8A1225DC4C4007C9D7B /* background.png in Resources */,
-				F7A2A8A2225DC4C4007C9D7B /* dice1.png in Resources */,
 				F71E04922236192A005F0D68 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
